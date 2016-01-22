@@ -12,7 +12,7 @@ CFLAGS += $(EXTRA_CFLAGS)
 ######### JTAG and environment configuration ##########
 OPENOCD           ?= openocd
 OPENOCD_INTERFACE ?= interface/stlink-v2.cfg
-CROSS_COMPILE     ?= arm-none-eabi-
+CROSS_COMPILE     ?= /usr/local/gcc-arm-none-eabi-4_9-2015q2/bin/arm-none-eabi-
 PYTHON2           ?= python2
 DFU_UTIL          ?= dfu-util
 CLOAD             ?= 1
